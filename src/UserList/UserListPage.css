@@ -1,0 +1,55 @@
+.user-list_button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.button-wrapper_add-btn {
+  font-size: 0.5em;
+  background-color: #3abbc8;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.button-wrapper_add-btn:hover {
+  background-color: #39adb8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 0.6em;
+}
+
+li {
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.deleted {
+  display: none;
+}
+
+.list-button {
+  background-color: #ffff;
+  color: #fff;
+  padding: 2px 5px;
+}
+
+.list-button_trash-icon {
+  width: 17px;
+}
+
+.user-created-text {
+  background-color: orange;
+  text-align: center;
+  padding: 10px 0;
+  display: block;
+  font-size: 0.4em;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}

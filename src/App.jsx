@@ -1,15 +1,15 @@
-import { useEffect } from 'react'
+import '../style.css'
+import { AllUsersPage } from './MainPage/AllUsersPage'
+import React from 'react'
 
 const App = () => {
-  useEffect(() => {
-    fetch('/api/v1/users')
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data)
-      })
-  }, [])
-
-  return <div>Hello World!</div>
+  return (
+    <div className="App">
+      <div className="main-container">
+        <AllUsersPage />
+      </div>
+    </div>
+  )
 }
 
 export { App }
